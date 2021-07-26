@@ -7,7 +7,8 @@
 
   }
 
-  
+html {background-color: #3a3a3a;}
+
 body { font-family: mukta, sans-serif ;
        font-weight: 200;
 
@@ -18,17 +19,48 @@ body { font-family: mukta, sans-serif ;
     h1,h2{font-family: Roboto, sans-serif;
         text-transform: uppercase;
         letter-spacing: 2px;
-        color:goldenrod
+        color:rgb(85, 84, 80)
     }
+
 
   #logo {
    float: left;
    font-size:250%;
+   color: #fff;
+   
 
   }
   
+  /* Navigation links */
+
+  #nav-list {
+    font-size: 110%;
+    letter-spacing: 2px;
   
+  }
+
+  #nav-list, #logo {
+    line-height: 75px;
+  }
+  
+  #nav-list li {
+
+    list-style: none;
+    float: right;
+    margin-right: 30px;
+  }
     
+  #nav-list a {
+    text-decoration: none;
+    color:#fff;
 
+  }
 
-   
+  #logo:hover {
+    color: #add8e6;
+    }
+
+ #nav-list a:hover {
+   color:#add8e6;
+ }
+
