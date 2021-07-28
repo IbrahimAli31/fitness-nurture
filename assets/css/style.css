@@ -82,7 +82,7 @@ body { font-family: roboto, sans-serif ;
  }
 
  #cover-text h2 {
-   color:#fff;
+   color:#add8e6;
 
   
  }
@@ -108,4 +108,54 @@ body { font-family: roboto, sans-serif ;
      
    }
 
+   /* Classes section */
+
+   .main-container {
+     margin-top: 20px;
+     margin-bottom: 500px
+   }
+
+   .main-card-title {
+     text-align: center;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     font-size: 24px;
+     font-weight: bold;
+   }
+
+   .card-content {
+     width:1400px;
+     height:300px;
+     display: flex;
+     justify-content: space-between;
+     margin: 0 auto;
+     
+     
+   }
+
+   .card-image-container {
+     width: 420px;
+     height: 100%;
+     background:#fff;
+     border-radius: 20px;
+     display: flex;
+     justify-content: center;
+     cursor: pointer;
+     
+   }
+
+   .card-title {
+     margin-top: 30px;
+     font-size: 18px;
+     font-weight: bolder;
+     text-align: center;
+     color: #fafafa
+   }
+
+   .card-span {
+     font-weight: normal;
+     display: block;
+     color:inherit;
+   }
  
+  
