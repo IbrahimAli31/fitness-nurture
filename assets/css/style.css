@@ -9,7 +9,7 @@
 
 html {background-color: #3a3a3a;}
 
-body { font-family: mukta, sans-serif ;
+body { font-family: roboto, sans-serif ;
       color:#fff;
        font-weight: 200;
 
@@ -17,10 +17,10 @@ body { font-family: mukta, sans-serif ;
 
     /* Headings and logo */
 
-    h1,h2{font-family: Roboto, sans-serif;
+    h1,h2,h3 {font-family: Roboto, sans-serif;
         text-transform: uppercase;
         letter-spacing: 2px;
-        color:rgb(85, 84, 80)
+        
     }
 
 
@@ -107,3 +107,5 @@ body { font-family: mukta, sans-serif ;
      position: absolute;
      
    }
+
+ 
