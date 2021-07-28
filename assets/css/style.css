@@ -202,4 +202,61 @@ body { font-family: roboto, sans-serif ;
     transform:scale(1.5)
   }
 
-  
+  .card {
+    height: 300px;
+    width: 70%;
+
+  }
+
+   /* About us section */
+
+  .banner-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: -2px -2px 15px 3px rgba(0, 0, 0, 0.8);
+  }
+
+  .banner-content-container {
+
+   text-align: right;
+  }
+
+  .banner-content {
+  padding: 0  50px;
+    
+  }
+
+  .banner-image-container {
+    height: 100%;
+  }
+
+  .banner-heading {
+    font-size: 30px;
+    letter-spacing: 1px ;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+
+  .banner-summary {
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+
+  .banner-cta {
+    display: inline-block;
+    background: #add8e6;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+
+   .banner-cta:hover {
+    background:#fafafa; 
+   }
+  .banner-headline {
+    text-align: center ;
+    text-decoration: underline;
+    
+  }
