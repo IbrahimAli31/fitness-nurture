@@ -142,8 +142,13 @@ body { font-family: roboto, sans-serif ;
      justify-content: center;
      cursor: pointer;
      position:relative;
+     overflow: hidden;
      
    }
+
+   .card-img {
+    transition: 5s;
+  }
 
    .card-title {
      margin-top: 30px;
@@ -160,12 +165,39 @@ body { font-family: roboto, sans-serif ;
    }
 
    .card-info {
-     color: #3a3a3a;
      position: absolute;
      height: 100%;
-     width: 100%
+     top: -100%;
+     left: 0;
+     color: #3a3a3a;
+     transition: 5s ease-in-out;
+   }
+
+     .card-info-list {
+       margin: auto;
+     }
      
     
+   
+
+   .card-info-item {
+     margin-bottom: 20px;
+     font-size: 10px;
+     font-weight: bold;
+     text-align: center;
+     
+   }
+
+   .card-image-container:hover >li  {
+   top: 0;
+   overflow: hidden;
+
    }
  
+   .card-image-container:hover > .card-info {
+     top:0
+   }
   
+   .card-image-container:hover > .card-img {
+    transform:scale(1.5)
+  }
