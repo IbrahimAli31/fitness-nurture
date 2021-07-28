@@ -137,10 +137,11 @@ body { font-family: roboto, sans-serif ;
      width: 420px;
      height: 100%;
      background:#fff;
-     border-radius: 20px;
+     border-radius: 5px;
      display: flex;
      justify-content: center;
      cursor: pointer;
+     position:relative;
      
    }
 
@@ -156,6 +157,15 @@ body { font-family: roboto, sans-serif ;
      font-weight: normal;
      display: block;
      color:inherit;
+   }
+
+   .card-info {
+     color: #3a3a3a;
+     position: absolute;
+     height: 100%;
+     width: 100%
+     
+    
    }
  
   
