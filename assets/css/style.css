@@ -268,4 +268,82 @@ body { font-family: roboto, sans-serif ;
 
   /* Contact us section */
 
+  #contact-title {
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    text-decoration: underline;
+  }
+
+.contact-desc {
+  height: 500px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.contact-info-holder,
+.contact-form-holder {
+  flex-basis: 40%;
+  height: 80%;
+  background:rgba(173, 216, 230, 0.8);
+  display:flex;
+  
+}
+
+.contact-form ,.contact-info {
+  margin:auto;
+}
+
+.contact-info {
+  color:#fff;
+}
+
+td {
+  vertical-align: top;
+  padding: 10px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.contact-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.contact-input-holder {
+  width: 80%;
+  text-align: center;
+}
+
+ input,.msg-input {
+  width: 60%;
+  margin: 10px 15px;
+}
+
+ input {
+  height: 20px;
+  border:none;
+  font-size: 15px;  
+  
+}
+
+
+textarea {
+
+  border:none;
+  font-size: 15px;
+  padding: 10px;
+}
+
+input[type="submit"]
+   {cursor: pointer;
+
+ }
+
 
