@@ -30,11 +30,13 @@ To log into the Heroku toolbelt CLI:
 4. In Gitpod, from the terminal, run `heroku_config`
 5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you ssbso do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
 ------
 
 ## Release History
+
+hi my name is ibrahim
 
 We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
