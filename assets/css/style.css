@@ -348,4 +348,67 @@ input[type="submit"]
 
  }
 
+ /* Footer section */
+
+ footer {
+   height: 150px;
+   border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+ }
+
+ .social-icons {
+   text-align: center;
+ }
+
+ .social-icons > li {
+   text-align: center;
+   display:inline;
+ }
+
+ .social-icons i {
+   font-size: 150%;
+   margin: 1%;
+   padding: 5%;
+   color:#ffff;
+ }
+
+ #copyright {
+   text-align: center;
+   margin-top: 20px;
+ }
+
+ /* Media queries */
+
+
+ /* For larger to medium sized screens */
+
+ @media screen and (max-width:1300px) {
+
+.main-container {
+  width: 100%;
+  position: relative;
+}
+   
+  .card  { width: 80%;
+          height: 300px;
+          margin:0 auto;
+                  
+  
+}
+
+
+div>img {
+  width: 100%;
+
+}
+  
+
+#contact-section {
+
+  padding-left: 20px;
+}
+
+
+ }
+
 
