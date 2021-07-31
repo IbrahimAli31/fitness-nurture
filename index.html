@@ -8,53 +8,55 @@
       <meta name="description"
          content="Yoga club for people intrested in relaxing their body,mind and soul in London,United Kingdom">
       <meta name="keywords" content="Yoga club, Yoga for stress relief, Yofga from home, London, United Kingdom ">
-      <link rel="stylesheet" href="/assets/css/style.css">
+      <link rel="stylesheet" href="./assets/css/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <title>Fitness Nurture</title>
    </head>
    <body>
       <!--Start of Header -->
-      <header>
+      <header >
          <a href="index.html">
             <h1 id="logo"> Fitness Nurture </h1>
          </a>
-         <nav>
-            <ul id="nav-list">
-               <li>
-                  <a href="#contact-section"> Contact</a>
-               <li>
-                  <a href="#about-us-section"> About us</a>
-               </li>
-               <li>
-                  <a href="#class-section"> Classes</a>
-               </li>
-               <li>
+         <nav  class="topnav" id="nav-list">
+          
+               
                   <a href="index.html"> Home</a>
-               </li>
-            </ul>
+                 
+                  <a href="#classes-section"> Classes</a>
+               
+                  <a href="#"> About Us</a>
+               
+                  <a href="#"> Contact</a>
+               
+           
          </nav>
+         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
       </header>
       <!--Start of Hero image section -->
       
       <section id="hero-sec">
         <hr>
-         <div id="hero-image"> </div>
+         <div id="hero-image"> 
          <div id="cover-text">
             <h2> "Yoga is a light, which once lit will never dim. the better your practice,The brighter your flame.” </h2>
             <br>
             <p> - B.K.S. Iyengar</p>
          </div>
+      </div>
       </section>
 
       <!--Start of classes section -->
-      <div id="class-section">
 
-       <section class="main-container">
+      <section class="main-container">
           <div class="card-container">
              <h2 class="main-card-title"> <em> Some </em> of the classes we offer! </h2>
             <div class="card-content">
-               <div class="card"> 
+               <div class="card">
                  <div class="card-image-container">
-                 <img src="./assets/images/Virabhadrasana pose.png" class="card-img">
+                 <img src="https://www.yogapedia.com/images/uploads/6fc4584983c5484e90242b667c222079.png" alt="cartoon in warrior one pose" class="card-img">
                  <div class="card-info"> 
                    <ul class="card-info-list"> 
                      <li class="card-info-item"> 
@@ -91,7 +93,7 @@
 
               <div class="card">
                 <div class="card-image-container">
-                  <img src=" ./assets/images/Dhanurasana Pose.png" class="card-img">
+                  <img src="https://www.yogapedia.com/images/uploads/3c82acb7549f40c5bca85b7636dd9b37.png" alt="cartoon in bow pose" class="card-img">
                   <div class="card-info"> 
                     <ul class="card-info-list"> 
                       <li class="card-info-item"> 
@@ -126,7 +128,7 @@
 
                 <div class="card">
                   <div class="card-image-container">
-                    <img src="./assets/images/Bhujangasana pose.png" class="card-img">
+                    <img src="https://www.yogapedia.com/images/uploads/baebe4f8f3294856ab7c7fc4d7802d11.png"  alt="cartoon in" class="card-img">
                     <div class="card-info"> 
                       <ul class="card-info-list"> 
                         <li class="card-info-item"> 
@@ -162,27 +164,25 @@
 
               </div>
 
-           </div>
-
-         </div>
+            </section>
 
      <!--Start of About us Section  -->
       
 
-      <div class="banner-container" id="foundation"> 
+      <div class="banner-container"> 
        <div class="banner-image-container">
-          <img src="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/k-s21-eye-0201.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=ad0f6dcedea908d5a18d7975f5047d45"> 
+          <img src="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/k-s21-eye-0201.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=ad0f6dcedea908d5a18d7975f5047d45" alt=""> 
        </div>
        <div class="banner-content-container"> 
           <div class="banner-content"> 
-             <h2 class="banner-headline" id="about-us-section"> Who are Fitness Nurture? <i class="fas fa-globe"></i></h2>
-             <p class="banner-summary"> 
+             <h2 class="banner-headline"> Who are Fitness Nurture? <i class="fas fa-globe"></i></h2>
+             <p class="banner-summary" id="bannerSum"> 
                 <br>
                 Fitness Nurture was founded in 2015 by a group of friends and are a yoga club that 
                 wants to bring joy and happiness to yoga participants and anyone alike.We feel doing 
                 yoga brings a carming influence in a busy and hectic world and is an essential part of 
                 relaxing the mind,body and soul.
-                <p class="banner-summary">
+                <p class="banner-summary"  id="bannerSum">
                 We offer a wide range of classes and are available in our studio in London for sessions 
                 (following strict social distancing guidelines) and we also offer remote classes too.This 
                 is of of course needed considering the pandemic that we have been living with for over a year.
@@ -190,7 +190,7 @@
                 your lives!
                </p>
                </p>
-               <a href="#contact-section" class="banner-cta">  Learn More </a>
+               <a href="#" class="banner-cta">  Learn More </a>
 
              </p>
           </div>
@@ -199,9 +199,9 @@
 
       <div class="banner-container"> 
          <div class="banner-content-container"> 
-            <div class="banner-content"> 
+            <div class="banner-content" id="bannerSummary"> 
                <h2 class="banner-headline"> Fun Enviroment  <i class="far fa-laugh-squint"></i>  </h2>
-               <p class="banner-summary"> 
+               <p class="banner-summary" > 
                   <br>
                   Fitness Nurture are dedicated to making the experience of our Yogi's a fun and enjoyable one
                   were a lot is learnt and many great relationships are made along the way.Yoga is just one of 
@@ -212,18 +212,18 @@
                   So come along and join us.We promise you won't regret it!
                   <p>
                  </p>
+                 <a href="#" class="banner-cta">  Learn More </a>
             </div>
          </div>
-         <div class="banner-image-container">
+         <div class="banner-image-container" id="bannerImg">
             <img src="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/s443-mckinsey-9058-pom_1.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=c9a40231f25ea1838a9080723a89afcd" alt=""> 
          </div>
         </div>
         
          <!--Contact Section -->
 
-         <div id="contact-section">
-         <h2 id="contact-title"> Get in Touch! </h2>
-      
+         <h2 id="contact-title" > Get in Touch!</h2>
+     
       <div class="contact-desc"> 
          <div class="contact-info-holder">
           <table class="contact-info">
@@ -261,32 +261,33 @@
                      <textarea name="comment" id="" cols="30" rows="10" placeholder=" Write us a message" class="input-msg"></textarea>
                     </div>
                     <div class="contact-input-holder"> 
-                     <input type="submit" class="input" target="_blank"  value="Send">
+                     <input type="submit" class="input" target="_blank" value="Send">
                      </div>
                   </div>
                </form>
             </div> 
       </div>
-      </div>
 
-      <!--Start of Footer Section  -->
-      <footer>
-       <div>
-          <ul class="social-icons">
-            <li> <a href="https://www.facebook.com/"target="_blank" rel="noopener" aria-label="visit our facebook page (opens in a new tab)"> <i class="fab fa-facebook-square"></i></a></li>
-            <li> <a href="https://twitter.com/"target="_blank" rel="noopener" aria-label="visit our twitter page (opens in a new tab)"> <i class="fab fa-twitter"></i></a></li>
-            <li> <a href="https://www.instagram.com/"target="_blank" rel="noopener" aria-label="visit our instagram page (opens in a new tab)"> <i class="fab fa-instagram"></i></a></li>
-            <li> <a href="https://www.youtube.com/"target="_blank" rel="noopener" aria-label="visit our youtube page (opens in a new tab)"> <i class="fab fa-youtube"></i></a></li>
-            
-          </ul>
-       </div>
 
-       <div id="copyright"> 
-          <p> <i class="far fa-copyright"></i> Copyright Fitness Nurture 2021 </p>
-       </div>
+
+      <footer id="footer"><p>
+         social media links</p>
       </footer>
-      
 
+
+      <script>
+
+
+function myFunction() {
+    var x = document.getElementById("nav-list");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+         </script>
+         
       <!--Font Awesome script  -->
       <script src="https://kit.fontawesome.com/62e2542c2e.js" crossorigin="anonymous"></script>
    </body>
