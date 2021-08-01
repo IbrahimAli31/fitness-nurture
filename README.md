@@ -12,4 +12,3 @@ pandemic.
 
 Responsiveness of website tested on [Am I Responsive](http://ami.responsivedesign.is/)
 
-
