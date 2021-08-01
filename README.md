@@ -214,3 +214,74 @@ The website HTML and CSS were regularly run through the W3C Markup Validation Se
 Lighthouse was also used to test my accessibility of my page and this was given a good score. 
 
 <img src="/workspace/fitness-nurture/testing/images/lighthouse-score.png">
+
+# Testing 
+
+## User Testing 
+
+- As a first time user i would like to understand the ethos and the values behind the company
+- As a first time user i would like to know why this company wil be better for me than others
+
+<img src="testing/images/header-.png"> <img src="testing/images/classes.png">  <img src="testing/images/about-us-1.png">
+<img src="testing/images/about-us-2.png">
+
+At the top of the website once the user has entered there is a navigation bar where the user has the option if going to different sections of the wep page.By clicking on "Classes" this will give the user more information on the tests we do and how we would instruct them how to do it also.Also at the top ofthe navigation 'About Us' section which will direct the user to the relevant section where they can learn more about the company, it's purpose and its ambitions. The user is also able to access this information by simply scrolling down the page, and the section is called "Who are fitness nurture?.The classes when scrolled give a zoom in animation which can provke a great response for the user and this explains to them all the information on that specific pose.There is also a CTA button on the abous us section where the customer will be taken to the contact section.
+
+- As a First Time Visitor I want to find information on the Yoga poses available and how i can do this.
+- As a Returning Visitor I want to continue to continue doing these poses to have the full benefit of Yoga.
+- As a Site Owner i want the information on my website to be as clear as possible so that the user can perform these 
+poses in a safe and professional way.
+
+<img src="testing/images/contact.png"> <img src="testing/images/contact.png">
+
+
+As a First Time Visitor I want to locate their social media accounts so I can receive updates and see their following and how well they are known and reliable.I would also like their contact numbers for any emergency queries or also their address so we can speak face to face.
+
+As a Site Owner I want users to be able to locate us on social media or by other means.
+
+
+The contact and footer sections provide different means of contact to where the patient can find us.This is very helpful in the fact that 
+if a patient can only message us we have the option of a message.If they can't message then they can call etc.There's mamy different ways 
+a customer can contact us which means that we build a better Rapport with the user.The social media links will open up on a different tab 
+to the chosen social media page and the form cannot be put through without filling all the correct information.
+
+The website was tested across different browsers including Google Chrome,Mozilla Firefox and Safari. It rendered well on both browsers and worked as intended.
+
+
+# Deployment 
+
+## Github Project Creation
+
+1 Click the green 'New' button in my GitHub repositories section
+2 Select the Code Institute template
+3 Name repository "Fitness Nurture" 
+4 Set repository to 'Public' to ensure the commit history is visible
+5 Click 'Create repository'
+
+## Github Pages
+
+The project was deployed to GitHub Pages using the following steps :
+
+1 Sign in to GitHub and locate the GitHub Repository
+2 At the top of the Repository find  the "Settings" Button on the menu.
+3 Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
+4 Scroll down the Settings page until you locate the "GitHub Pages" Section.
+5 Under "Source", click the dropdown called "None" and select "Master Branch".
+6 The page will automatically refresh.
+7 Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+## Run Locally
+
+1 Select the Repository for the project from the GitHub dashboard.
+2 Find the 'Code' button, and from the dropdown select 'Download ZIP'.
+3 Open a new terminal and write the 'git clone' command in the CLI and paste copied URL
+4 Collect the downloaded  file on your device.
+
+
+# Credits
+
+## content
+
+- Yogapedia was used for the images on the Classes section as well as the information inside.
+- Sign up form on the Love running section 1 was deployed into my code for the form and altered.
+
