@@ -7,8 +7,10 @@ in joining and learning this craft.Visitors to this website will be able to find
 the services we offer and how we are able to acomodate to their needs in the current 
 pandemic.
 
-
-![Am I responsive test](testing/images/Am-i-Responsive.png)
+<img src="testing/images/am-i-responsive.png">
 
 Responsiveness of website tested on [Am I Responsive](http://ami.responsivedesign.is/)
+
+
+# h1 Features 
 
