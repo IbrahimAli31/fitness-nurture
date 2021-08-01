@@ -68,12 +68,11 @@ Nurture wants to be the best yoga club for any Yogi's across the capital and far
 
  ### First Time Visitor Goals
 
- - As a first time visior,i would like a clear and consice understanding of what the company offers.
+ - As a first time visior,i would like to know why doing Yoga will benefit me so much.
 
  -  As a first-time visitor, I would want to look into their social media following/links to see how popular they are.
 
  - As a first time visitor,i would like a easily accessable webpage which i can navigate through easily.
-
 
 
  ### Returning Visitor Goals
@@ -81,12 +80,6 @@ Nurture wants to be the best yoga club for any Yogi's across the capital and far
  - As a returning visitor,I would like to have a look at the excersises and instructions on it
  - As a returning visitor I would like to know more about the Classes on offer.
 
- 
-### Frequent Visitor Goals
-
-- As a frequenent visior i would like to know if they have a loyalty points service 
-- As a frequenent visior i would like to know if there is a way i could become a Yoga teacher
- - As a frequenent visior
     
 
 ### Site Owner Goals 
@@ -113,7 +106,9 @@ a nice contrast.The light blue was used when hovering over the navigation bars a
 Fitness Nurture is a single paged website with four different navigation icons.The single page design was chosen as i felt
 that there was enough content to only fill just a single page and more imagery was necessary to catch the users attention.
 
-Please see the wireframes below for the varying devices:<img src= "wireframes/mobile-balsamiq.png"> <img src="wireframes/tablet-balsamiq.png"> and <img src="wireframes/desktop-balsamiq.png">
+Please see the wireframes below for the varying devices:
+
+<img src= "wireframes/mobile-balsamiq.png"> <img src="wireframes/tablet-balsamiq.png">  <img src="wireframes/desktop-balsamiq.png">
 
 
 ## Typography 
@@ -134,7 +129,7 @@ The images from my website have been acquired from [RawPixel](https://www.rawpix
 
 For my  project I have gone with a single page website, Which is fully responsive and consists of a header, footer and 4 main sections; Home, Classes, About Us and Contact.
 
-### Navigation
+### Navigation 
 
 I have implemented a navbar wgich is fully responsive and collapses down into a hamburger menu on smaller devices. It provides a full list of links to access each of the key sections on the website.
 
@@ -213,7 +208,9 @@ The responsiveness of my website was checked by using Responsinator and [Am I re
 
 ## W3C Validator Tools 
 
-The website HTML and CSS were regularly run through the W3C Markup Validation Service and CSS Validation Service. A final validation check was performed with no errors before submitting the project which you can see here. <img src="testing/images/w3c-html.png"> <img src="testing/images/w3c-css.png>
+The website HTML and CSS were regularly run through the W3C Markup Validation Service and CSS Validation Service. A final validation check was performed with no errors before submitting the project which you can see here. <img src="testing/images/w3c-html.png"> <img src="testing/images/w3c-css.png">
 
 
-Lighthouse was also used and this score was given. <img src="/workspace/fitness-nurture/testing/images/lighthouse-score.png">
+Lighthouse was also used to test my accessibility of my page and this was given a good score. 
+
+<img src="/workspace/fitness-nurture/testing/images/lighthouse-score.png">
